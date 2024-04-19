@@ -1,0 +1,20 @@
+.container {
+  padding: 50px;
+}
+.container .container__content {
+  display: flex;
+  justify-content: space-between;
+}
+.container .container__content .container__content-item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.container .container__content .container__content-item .container__content-item__list {
+  width: 1px;
+  height: 30px;
+  background: #000;
+}
+.container .container__content .container__content-item .container__content-item-1 p {
+  width: 150px;
+}/*# sourceMappingURL=style.css.map */
