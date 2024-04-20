@@ -23,5 +23,35 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 40px;
+        .container__item-img-frist{
+            img{
+                margin-right: 80px;
+                margin-bottom: 40px;
+            }
+        }
+        .container__item-img-second {
+            img{
+                margin-right: 20px;
+            }
+        }
+    }
+    .container__title{
+        display: flex;
+        justify-content: space-between;
+        .container__title-img-frist{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            position: relative;
+            top: 200px;
+        }
+        .container__title-img-second{
+            position: absolute;
+            bottom: -165px;
+            left: 710px;
+            filter:grayscale(1);
+            box-shadow: 39px -35px 0px 0px rgba(232,232,232,1);
+        }
     }
 }
