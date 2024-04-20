@@ -1,6 +1,6 @@
 .container{
    padding: 50px;
-   .container__content{
+    .container__content{
         display: flex;
         justify-content: space-between;
         .container__content-item {
@@ -18,5 +18,10 @@
                 }
             }
         }
-   }
+    }
+    .container__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

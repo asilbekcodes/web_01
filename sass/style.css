@@ -17,4 +17,9 @@
 }
 .container .container__content .container__content-item .container__content-item-1 p {
   width: 150px;
+}
+.container .container__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
